@@ -13,7 +13,8 @@ from common_fastapi.shared.config import validate_env  # 공통 환경 변수 �
 from route.chat import router as chat_router
 from route.admin import router as admin_router
 
-origins = ["http://localhost:3000", "https://albahero.com:545"]
+# origins = ["http://localhost:3000", "http://localhost:8082", "https://albahero.com:545"]
+origins = ["*"]
 load_dotenv() # 프로젝트별 환경 변수 로드 (LOG_PATH 등)
 # API_KEY, DB_URL은 common_fastapi/.env 사용하고 LOG_PATH는 gigchat_fastapi/.env 사용
 
