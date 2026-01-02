@@ -1,0 +1,20 @@
+# FastAPI 관련
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Database 관련
+pgvector
+asyncpg
+psycopg2-binary
+
+# LangGraph 및 AI 관련
+langgraph
+openai
+sentence-transformers
+numpy
+
+# 기타
+requests
+

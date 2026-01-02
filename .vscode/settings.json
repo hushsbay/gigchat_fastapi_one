@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "c:/Src/Git/common_fastapi"
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic"
+}
